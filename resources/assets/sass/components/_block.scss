@@ -1,0 +1,41 @@
+.block-title {
+  color: $color-main-dark;
+  font-size: 24px;
+}
+
+.block-list {
+  margin-bottom: 20px;
+  padding-left: 0; // Override default ul/ol
+  list-style: none;
+  @include clearfix;
+
+  .active {
+    font-weight: bold;
+  }
+}
+
+.block-item {
+  position: relative;
+  display: block;
+  border-bottom: 1px #eaeaea solid;
+
+  > a {
+    position: relative;
+    display: block;
+    padding: $nav-link-padding;
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+
+  &:before {
+    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size: 9px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 0px;
+    color: #CCCCCC;
+  }
+}

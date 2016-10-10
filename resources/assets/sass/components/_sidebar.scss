@@ -1,0 +1,57 @@
+body {
+  //position: relative;
+  padding-right: 0px;
+}
+
+.modal-open {
+  overflow: hidden;
+}
+
+.sidebar {
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  bottom: 0;
+  z-index: 1049;
+  overflow: auto;
+  width: 320px;
+  background: #F5EDE4;
+}
+
+.sidebar-left {
+  right: auto;
+  left: 0;
+
+}
+
+.sidebar-right {
+  right: 0;
+  left: auto;
+}
+
+.modal-open {
+  .sidebar {
+    visibility: visible;
+  }
+
+  .overlay {
+    opacity: .5;
+    transition: opacity .3s ease;
+    filter: alpha(opacity=50);
+    visibility: visible;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  opacity: 0;
+  transition: opacity .3s ease;
+  background-color: #000;
+  cursor: pointer;
+  visibility: hidden;
+}

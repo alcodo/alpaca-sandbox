@@ -1,0 +1,29 @@
+.slideleft-enter {
+  animation:slideleft-in .6s;
+}
+.slideleft-leave {
+  visibility: visible;
+  animation:slideleft-out .6s;
+}
+
+
+@keyframes slideleft-in {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideleft-out {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}

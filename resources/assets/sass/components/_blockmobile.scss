@@ -1,0 +1,8 @@
+.blockmobile{
+  padding: 10px;
+  display: none;
+}
+
+body.modal-open .blockmobile{
+  display: block;
+}
