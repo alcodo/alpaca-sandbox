@@ -62,6 +62,11 @@ return [
             'bucket' => 'your-bucket',
         ],
 
+        'powerimage' => [
+            'driver' => 'local',
+            'root'   => storage_path('powerimage'),
+        ],
+
     ],
 
 ];
