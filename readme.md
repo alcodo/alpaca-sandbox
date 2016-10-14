@@ -3,6 +3,17 @@
 This is a demo application for AlpacaCMS. You can use this code to start a project or
 you install Alpaca CMS in a existing project.
 
+Install:
+```
+php vendor/bin/homestead make
+vagrant up
+vagrant ssh
+composer install
+php artisan migrate
+npm install
+gulp
+```
+
 ... TODO
 
 
