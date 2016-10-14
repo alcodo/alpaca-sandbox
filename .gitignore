@@ -3,6 +3,7 @@
 /public/build
 /public/assets/theme
 /vendor
+/storage/powerimage
 /.idea
 /.vagrant
 Vagrantfile

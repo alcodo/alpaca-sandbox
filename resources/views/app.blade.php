@@ -33,5 +33,6 @@
 <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script defer src="{{ elixir('assets/theme/script.js') }}"></script>
 @yield('scripts')
+@include('cookieconsent::bar')
 </body>
 </html>

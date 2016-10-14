@@ -19,7 +19,12 @@ elixir(mix => {
     mix.sass('style.scss', 'public/assets/theme/style.css')
 
     // js
+    mix.webpack('../../../vendor/alcodo/alpaca/resources/javascript/alpaca/alpaca.js', 'public/build/alpaca.js');
+    // mix.browserify('../../../vendor/alcodo/alpaca/resources/javascript/alpaca/alpaca.js', 'public/build/alpaca.js');
+
     mix.scripts([
+        '../../../public/build/alpaca.js',
+
         // dependency
         '../../../node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js',
         '../../../node_modules/magnific-popup/dist/jquery.magnific-popup.js',
@@ -35,6 +40,8 @@ elixir(mix => {
         '../../../vendor/alcodo/alpaca/resources/javascript/libraries/bootstrap-confirmation.js',
         '../../../vendor/alcodo/alpaca/resources/javascript/libraries/jquery.bootstrap-autohidingnavbar.js',
 
+
+
         // js
         '../../../vendor/alcodo/alpaca/resources/javascript/alpaca/navbar.js',
         '../../../vendor/alcodo/alpaca/resources/javascript/alpaca/sidebar.js',
@@ -42,7 +49,7 @@ elixir(mix => {
         '../../../vendor/alcodo/alpaca/resources/javascript/alpaca/dataTables.js',
         '../../../vendor/alcodo/alpaca/resources/javascript/alpaca/confirm-button.js',
         '../../../vendor/alcodo/alpaca/resources/javascript/alpaca/page.js',
-        '../../../vendor/alcodo/alpaca/resources/javascript/alpaca/select.js'
+        '../../../vendor/alcodo/alpaca/resources/javascript/alpaca/select.js',
     ], 'public/assets/theme/script.js');
 
     // Version
