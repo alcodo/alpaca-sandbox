@@ -11,7 +11,7 @@ $icon-font-path: "/assets/fonts/";
 // Reset and dependencies
 @import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/normalize";
 @import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/print";
-@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/glyphicons";
+//@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/glyphicons";
 
 // Core CSS
 @import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
@@ -57,6 +57,7 @@ $icon-font-path: "/assets/fonts/";
 @import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
 
 // Libs
+@import "../../../node_modules/font-awesome/scss/font-awesome.scss";
 @import "../../../node_modules/summernote/dist/summernote";
 @import "lib/magnific-popup";
 @import "lib/treegrid";

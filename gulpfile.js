@@ -51,4 +51,7 @@ elixir(mix => {
         'assets/theme/script.js'
     ]);
 
+    // font-awesome
+    mix.copy('node_modules/font-awesome/fonts', 'public/build/assets/fonts/');
+
 });
