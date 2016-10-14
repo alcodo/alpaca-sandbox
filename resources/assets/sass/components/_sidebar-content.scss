@@ -1,25 +1,19 @@
 .sidebar-header{
   border-bottom: 10px solid $color-main-darker;
-
-  //border-bottom: 1px solid #e5e5e5;
   min-height: 16px;
   padding: 6px 15px;
   background: $color-main;
-  //background: $color-main-dark;
-  //color: #fff;
   color: $color-main-darker;
 }
 
 .sidebar-title {
   font-size: $font-size-h3;
-  //color: $color-main-darker;
-  margin: 3px 0;
+  margin: 9px 0;
 }
+
 .sidebar-close {
   margin-right: -8px;
   padding: 4px 8px;
-  //color: $color-main-darker;
-  //color: #fff;
   font-size: 25px;
   opacity: .8;
   cursor: pointer;
