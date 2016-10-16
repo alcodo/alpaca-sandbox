@@ -2,11 +2,12 @@ $bootstrap-sass-asset-helper: false !default;
 //
 // Variables
 // --------------------------------------------------
-$color-main: #abe0ff;
-$color-main-dark: #6f90a5;
-$color-main-darker: #41515f;
-$color-green: #00632c;
 
+$color1: #abe0ff;
+$color2: #41515f;
+$color3: #6696B2;
+$color4: #B28A54;
+$color5: #FFDBAB;
 
 //== Colors
 //
@@ -20,7 +21,7 @@ $gray-light:             lighten($gray-base, 46.7%) !default; // #777
 $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
 
 //$brand-primary:         darken(#428bca, 6.5%) !default; // #337ab7
-$brand-primary:         $color-main-dark !default; // #337ab7
+$brand-primary:         $color2 !default;
 $brand-success:         #219917 !default;
 $brand-info:            #2386c9 !default;
 $brand-warning:         #d89b06 !default;
@@ -38,9 +39,9 @@ $text-color:            $gray !default;
 
 //** Global textual link color.
 //$link-color:            $brand-primary !default;
-$link-color:            $color-main-darker !default;
+$link-color:            $color2 !default;
 //** Link hover color set via `darken()` function.
-$link-hover-color:      $color-main !default;
+$link-hover-color:      $color4 !default;
 //** Link hover decoration.
 $link-hover-decoration: none !default;
 
@@ -378,11 +379,11 @@ $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2
 $navbar-collapse-max-height:       340px !default;
 
 $navbar-default-color:             #777 !default;
-$navbar-default-bg:                $color-main !default;
+$navbar-default-bg:                $color1 !default;
 $navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
 
 // Navbar links
-$navbar-default-link-color:                $color-main-darker;
+$navbar-default-link-color:                $gray;
 $navbar-default-link-hover-color:          $gray-dark;
 $navbar-default-link-hover-bg:             #fff !default;
 $navbar-default-link-active-color:         white !default;
