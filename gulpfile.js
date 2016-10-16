@@ -60,5 +60,6 @@ elixir(mix => {
 
     // font-awesome
     mix.copy('node_modules/font-awesome/fonts', 'public/build/assets/fonts/');
+    mix.copy('node_modules/summernote/dist/font', 'public/build/assets/theme/font/');
 
 });
